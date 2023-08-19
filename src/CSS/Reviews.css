@@ -1,0 +1,54 @@
+.main-heading-review-div {
+  text-align: center;
+}
+
+.review-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* SINGLE REVIEW STLYING START FROM HERE */
+
+.main-review-div {
+  text-align: center;
+  border-radius: 1rem;
+  width: 350px;
+}
+
+.single-review-div {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border-radius: 1rem;
+  padding: 20px;
+  position: relative;
+}
+
+.review-arrow {
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  right: 10rem;
+  background-color: rgb(33, 33, 33);
+  border-bottom-left-radius: 9rem;
+  /* border-bottom-right-radius: 9rem; */
+}
+
+.main-review-div img {
+  border-radius: 100%;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.main-review-div h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-review-div p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

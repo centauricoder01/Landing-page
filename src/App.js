@@ -10,8 +10,8 @@ function App() {
     <>
       <Navbar />
       {/* <Header /> */}
-      <Services />
       <Client />
+      <Services />
       <Reviews />
       <Contact />
     </>
