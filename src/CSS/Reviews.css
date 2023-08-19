@@ -11,6 +11,10 @@
   flex-wrap: wrap;
 }
 
+.main-review {
+  margin-bottom: 5rem;
+}
+
 /* SINGLE REVIEW STLYING START FROM HERE */
 
 .main-review-div {

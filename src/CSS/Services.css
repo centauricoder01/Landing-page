@@ -1,0 +1,18 @@
+.services-div {
+  margin-bottom: 5rem;
+}
+.main-services-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.single-services-div {
+  background-color: white;
+  border-radius: 1rem;
+  width: 350px;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
