@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Header />
+      {/* <Header /> */}
       <Services />
       <Client />
       <Reviews />
