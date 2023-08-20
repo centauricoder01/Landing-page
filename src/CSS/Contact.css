@@ -67,10 +67,7 @@ button {
   border-radius: 5px;
   margin-bottom: 5px;
 }
-button {
-  background-color: #2a8ded;
-  color: #ffffff;
-}
+
 div.social {
   display: flex;
   justify-content: space-around;

@@ -15,6 +15,7 @@
   box-shadow: rgba(148, 148, 148, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-top: 1rem;
 }
 
 .navbar-inner-div {
@@ -29,7 +30,6 @@
   font-weight: bolder;
   transition: 1s box-shadow;
 }
-
 
 .navbar-inner-div p:hover {
   box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
@@ -141,7 +141,6 @@
   display: none;
 }
 
-
 .responsive-navbar-div {
   border-radius: 1rem;
   display: flex;
@@ -158,6 +157,7 @@
   z-index: 1000;
   top: 10px;
   width: 87%;
+  color: white;
 }
 
 .responsive-navbar-div p {

@@ -19,8 +19,8 @@ const Navbar = () => {
       <div className="main-navbar-div">
         <img src={logo} alt="logo" width={100} />
         <div className="navbar-inner-div">
-          <p>Services</p>
           <p>Client</p>
+          <p>Services</p>
           <p>Reviews</p>
           <p>Contact</p>
         </div>

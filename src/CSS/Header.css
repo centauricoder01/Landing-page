@@ -1,40 +1,107 @@
 .main-header-div {
+  width: 100%;
+  /* height: 100vh; */
+  /* background-image: url("../Assets/bg.jpg");
+  background-position: center;
+  background-size: cover; */
+  background: rgb(181, 188, 246);
+  background: radial-gradient(
+    circle,
+    rgba(181, 188, 246, 1) 0%,
+    rgba(64, 149, 146, 1) 84%
+  );
+  color: white;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  border: 1px solid red;
+  gap: 3rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  margin-top: 1rem;
 }
 
-.header-titles {
-  width: 50%;
-  border: 1px solid blue;
-}
-
-.images-div {
-    width: 50%;
-    border: 1px solid black;
-}
-
-button{
-  background-color: #c2fbd7;
-  border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-  color: green;
-  cursor: pointer;
-  display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 7px 20px;
+.col {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
-  border: 0;
-  font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  flex-direction: column;
 }
 
-button:hover {
-  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+.text-col p {
+  width: 60%;
+  margin: auto;
+}
+.text-col button {
+  width: 30%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.card-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  width: 300px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+.card p {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.card1 {
+  background-image: url("../Assets/comp1.jpg");
+  color: black;
+  font-weight: bolder;
+}
+
+.card2 {
+  background-image: url("../Assets/comp2.jpg");
+  font-weight: bolder;
+}
+
+.card3 {
+  background-image: url("../Assets/ai1.jpg");
+  font-weight: bolder;
+  color: yellow;
+}
+
+.card4 {
+  background-image: url("../Assets/ai2.jpg");
+  font-weight: bolder;
+  color: black;
+}
+
+@media only screen and (max-width: 426px) {
+  .text-col p {
+    width: 90%;
+    margin: auto;
+  }
+  .text-col button {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
