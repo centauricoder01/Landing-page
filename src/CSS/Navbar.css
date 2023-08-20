@@ -18,6 +18,15 @@
   margin-top: 1rem;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 .navbar-inner-div {
   display: flex;
   justify-content: center;
@@ -160,9 +169,10 @@
   color: white;
 }
 
-.responsive-navbar-div p {
+.responsive-navbar-div a {
   cursor: pointer;
   font-weight: bolder;
+  margin-top: 1rem
 }
 .responsive-icons {
   display: flex;

@@ -12,7 +12,7 @@ import { ImMail2 } from "react-icons/im";
 const Contact = () => {
   return (
     <>
-      <footer>
+      <footer id="contact">
         <div className="row primary">
           <div className="column about">
             <h3>Centarui</h3>
@@ -47,10 +47,10 @@ const Contact = () => {
             </ul>
           </div>
           <div className="column subscribe">
-            <h3>Subscribe</h3>
+            <h3>Contact</h3>
             <div>
               <input type="email" placeholder="Your email id here" />
-              <button>Subscribe</button>
+              <button>Contact</button>
             </div>
             <div className="social">
               <i className="fa-brands fa-facebook-square">

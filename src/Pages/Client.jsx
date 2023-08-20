@@ -9,7 +9,7 @@ import "../CSS/Client.css";
 
 const Client = () => {
   return (
-    <div className="main-client-div">
+    <div className="main-client-div" id="client">
       <h1 style={{ textAlign: "center" }}>Your Clients</h1>
       <div className="client-img-div">
         <img src={google} alt="google" />

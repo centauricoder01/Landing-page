@@ -72,8 +72,8 @@
 }
 
 .card1 {
-  background-image: url("../Assets/comp1.jpg");
-  color: black;
+  background-image: url("../Assets/comp2.jpg");
+  color: white;
   font-weight: bolder;
 }
 
@@ -83,15 +83,15 @@
 }
 
 .card3 {
-  background-image: url("../Assets/ai1.jpg");
+  background-image: url("../Assets/comp2.jpg");
   font-weight: bolder;
-  color: yellow;
+  color: white;
 }
 
 .card4 {
-  background-image: url("../Assets/ai2.jpg");
+  background-image: url("../Assets/comp2.jpg");
   font-weight: bolder;
-  color: black;
+  color: white;
 }
 
 @media only screen and (max-width: 426px) {

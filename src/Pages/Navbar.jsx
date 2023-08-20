@@ -17,12 +17,14 @@ const Navbar = () => {
   return (
     <>
       <div className="main-navbar-div">
-        <img src={logo} alt="logo" width={100} />
+        <a href="#home">
+          <img src={logo} alt="logo" width={100} />
+        </a>
         <div className="navbar-inner-div">
-          <p>Client</p>
-          <p>Services</p>
-          <p>Reviews</p>
-          <p>Contact</p>
+          <a href="#client">Client</a>
+          <a href="#services">Services</a>
+          <a href="#review">Reviews</a>
+          <a href="#contact">Contact</a>
         </div>
         <BsMenuButtonWideFill
           size={30}
@@ -37,10 +39,10 @@ const Navbar = () => {
           <img src={logo} alt="logo" width={100} />
           <GiCrossedBones onClick={handleChange} />
         </div>
-        <p>Services</p>
-        <p>Client</p>
-        <p>Reviews</p>
-        <p>Contact</p>
+        <a href="#client">Client</a>
+        <a href="#services">Services</a>
+        <a href="#review">Reviews</a>
+        <a href="#contact">Contact</a>
       </div>
     </>
   );

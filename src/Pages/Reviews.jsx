@@ -4,7 +4,7 @@ import Singlereview from "./Singlereview";
 
 const Reviews = () => {
   return (
-    <div className="main-review">
+    <div className="main-review" id="review">
       <div className="main-heading-review-div">
         <h1 style={{ marginBottom: "0px", fontWeight: "bolder" }}>
           Our Client Speak

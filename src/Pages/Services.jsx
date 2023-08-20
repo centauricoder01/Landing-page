@@ -9,7 +9,7 @@ import five from "../Assets/five.png";
 
 const Services = () => {
   return (
-    <div className="services-div">
+    <div className="services-div" id="services">
       <div style={{ textAlign: "center" }}>
         <h1 style={{ marginBottom: "0px", fontWeight: "bolder" }}>
           Your Services
